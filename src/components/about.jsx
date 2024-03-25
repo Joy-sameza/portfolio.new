@@ -27,7 +27,7 @@ export default function About() {
         <div className="number">
           <span>
             <strong>
-              123<em>+</em>
+              138<em>+</em>
             </strong>
             <small>Projects Completed</small>
           </span>
@@ -39,7 +39,7 @@ export default function About() {
           </span>
           <span>
             <strong>
-              2<em>+</em>
+              3<em>+</em>
             </strong>
             <small>Years of Experience</small>
           </span>
