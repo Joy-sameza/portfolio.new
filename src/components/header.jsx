@@ -2,6 +2,7 @@ import React from "react";
 import blur from "../static/images/header-low-res.jpg";
 import bgi from "../static/images/header.jpg";
 import { FiMenu } from "react-icons/fi";
+import CV from "../static/files/cv.pdf"
 
 export default function Header() {
   return (
@@ -34,8 +35,8 @@ export default function Header() {
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </div>
-        <a href="#" className="button">
-          Get in Touch
+        <a href={CV} className="button">
+          Download CV
         </a>
       </nav>
       <h1 role="contentinfo" aria-label="my-name">
